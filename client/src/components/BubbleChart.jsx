@@ -33,7 +33,7 @@ function getID() {
   return stringID;  
 }
                                
-export default ({ data }) =>
+export default ({ data, handleClick }) =>
   <ReactBubbleChart
     colorLegend={colorLegend}          //this renders everything black if undefined
     legend={false}                     //if true, create and show a legend based on the passed colors
@@ -41,7 +41,7 @@ export default ({ data }) =>
     selectedTextColor="#d9d9d9"        //for when bubble is 'selected'
     fixedDomain={{min: -1, max: 1}}    //works with color legend - see react-bubble-chart docs
     
-                             //NEED TO SET CLICK HANDLER HERE FOR OPENING NEWS URL:  onClick={}
+    onClick={handleClick}                         //NEED TO SET CLICK HANDLER HERE FOR OPENING NEWS URL:  onClick={}
     data={data.map(d => ({
       _id: getID(), //string, unique id (required) --> we didn't have this before React
       value: d.rating,             //number, to determine relative size of bubbles (required)

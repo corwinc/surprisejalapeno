@@ -76,6 +76,7 @@ class App extends React.Component {
     this.handleSearchSubmit = this.handleSearchSubmit.bind(this);
     this.handleSuggestionSelect = this.handleSuggestionSelect.bind(this);
     this.getNewsByLocation = this.getNewsByLocation.bind(this);
+    this.handleClick = this.handleClick.bind(this);
   }
 
   handleSearchChange (e) {
@@ -119,6 +120,11 @@ class App extends React.Component {
     })
   }
 
+  handleClick (d) {
+    console.log('inside handleClick, d:', d);
+    window.open(d.url);
+  }
+
   render() {
     return (
       <div>
@@ -126,7 +132,7 @@ class App extends React.Component {
           <Search props={this.props} handleSearchChange={this.handleSearchChange} handleSearchSubmit={this.handleSearchSubmit} handleSuggestionSelect={this.handleSuggestionSelect} />
         </section>
         <section>
-          <BubbleChart data={this.state.data} />
+          <BubbleChart data={this.state.data} handleClick={this.handleClick} />
         </section>
       </div>
     );
