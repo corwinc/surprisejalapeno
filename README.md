@@ -41,7 +41,7 @@
 - Supertest
 - Webpack
 - Bluebird
-- D3
+- D3 3.5.x (NOT 4.x)
 - jQuery
 - Knex
 - Morgan
@@ -60,6 +60,7 @@ From within the root directory:
 ```sh
 npm install -g webpack
 npm install -g grunt-cli
+npm install -g eslint
 npm install
 webpack
 ```
