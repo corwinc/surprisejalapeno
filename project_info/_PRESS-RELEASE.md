@@ -1,4 +1,4 @@
-# Project Name #
+# NearbyNews #
 
 <!-- 
 > This material was originally posted [here](http://www.quora.com/What-is-Amazons-approach-to-product-development-and-product-management). It is reproduced here for posterities sake.
@@ -16,34 +16,29 @@ Oh, and I also like to write press-releases in what I call "Oprah-speak" for mai
 Once the project moves into development, the press release can be used as a touchstone; a guiding light. The product team can ask themselves, "Are we building what is in the press release?" If they find they're spending time building things that aren't in the press release (overbuilding), they need to ask themselves why. This keeps product development focused on achieving the customer benefits and not building extraneous stuff that takes longer to build, takes resources to maintain, and doesn't provide real customer benefit (at least not enough to warrant inclusion in the press release).
  -->
  
-## NearbyNews ##
+## NearbyNews is Here! ##
+> Surprise Jalapeño, a stealth startup until now, just released their product NearbyNews that aggregates top news by location.
 
-## For the person who's short on time and wants access to a quick, consice overview of the top news by location. ##
+##  Get Up To Date on the Latest News Near You  ##
+> Short on time and want access to a quick, consice overview of the top news by location? NearbyNews is here to keep you informed.
   
 ## Summary ##
-  > Give a summary of the product and the benefit. Assume the reader will not read anything else so make this paragraph good.
-  NearbyNews allows users to search for news by location and instantly access the top news at her fingertips. The vision for the future of NearbyNews is to allow you to filter the news by your favorite publications and dynamically see the top news topics shift in realtime.
+> NearbyNews allows users to search for news by location and instantly access the top news at her fingertips. The vision for the future of NearbyNews is to allow you to filter the news by your favorite publications and dynamically see the top news topics shift in realtime.
 
 ## Problem ##
-  > Describe the problem your product solves.
-  There's a huge amount of news happening non-stop and it's difficult to get up to speed in a straightforward, meaningful and reliable way that remains unbiased towards particular publications.
+> There's a huge amount of news happening non-stop and it's difficult to get up to speed in a straightforward, meaningful and reliable way that remains unbiased towards particular publications.
 
 ## Solution ##
-  > Describe how your product elegantly solves the problem.
-  By aggregating top news based on popularity from a wide variety of publications, NearbyNews provides easy access to top news based on big data.
+> By aggregating top news based on popularity from a wide variety of publications, NearbyNews provides easy access to top news based on big data.
 
 ## Quote from You ##
-  > A quote from a spokesperson in your company.
-  "NearbyNews is the go-to place for staying abreast of the latest, most popular news stories happening right now."
+> "NearbyNews is the go-to place for staying abreast of the latest, most popular news stories happening right now."
 
 ## How to Get Started ##
-  > Describe how easy it is to get started.
-  "Simply visit the NearbyNews site, search for a location, and get instant access to the area's most popular news."
+> "Simply visit the NearbyNews site, search for a location, and get instant access to the area's most popular news."
 
 ## Customer Quote ##
-  > Provide a quote from a hypothetical customer that describes how they experienced the benefit.
-  "NearbyNews is part of my morning ritual alongside having my cup of coffee. It's how I stay informed about current event without spending an hour doing it."
+> "NearbyNews is part of my morning ritual alongside having my cup of coffee. It's how I stay informed about current event without spending an hour doing it."
 
 ## Closing and Call to Action ##
-  > Wrap it up and give pointers where the reader should go next.
-  "Go to NearbyNews to find out what's happening now."
+> Check out NearbyNews to find out what's happening now.
