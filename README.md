@@ -1,4 +1,4 @@
-# Surprise Jalapeño: NewsMapper
+# Surprise Jalapeño: NearbyNews
 
 > Search by location to get top news from around the globe.
 
