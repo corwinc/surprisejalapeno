@@ -105,12 +105,14 @@ class App extends React.Component {
     this.handleClick = this.handleClick.bind(this);
   }
 
+// Update state.location as user types in search bar
   handleSearchChange (e) {
     console.log('inside handleSearchChange');
     e.preventDefault();
     this.setState({location: e.target.value});
   }
 
+// On search submit, set set.location and call function to send query to server
   handleSearchSubmit (e) {
     console.log('inside handleSearchSubmit');
     e.preventDefault();
@@ -122,6 +124,8 @@ class App extends React.Component {
     this.getNewsByLocation(location);
   }
 
+// Handle user selection of Geosuggest suggestion from the dropdown
+// Currently the function called when a user hits return, rather than handleSearchSubmit
   handleSuggestionSelect (e) {
     console.log('selection e:', e);
     const loc = e.label;
@@ -129,6 +133,7 @@ class App extends React.Component {
     this.getNewsByLocation(loc);
   }
 
+// Send query w/ location from user input to server
   getNewsByLocation (loc) {
     console.log('inside getNewsByLocation');
     $.ajax({
@@ -169,6 +174,7 @@ class App extends React.Component {
     })
   }
 
+// On bubble click, open article in new tab
   handleClick (d) {
     console.log('inside handleClick, d:', d);
     window.open(d.url);
