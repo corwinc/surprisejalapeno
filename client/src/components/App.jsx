@@ -195,11 +195,13 @@ class App extends React.Component {
 
   getNewsByLocation (loc) {
     console.log('inside getNewsByLocation');
+    const query = loc.split(' ').join('+');
+    const encoded = encodeURIComponent(query);
     $.ajax({
       method: 'GET',
       url: '/query',
       dataType: 'json',
-      data: {q: loc},
+      data: {q: encoded},
       success: (data) => {
         data = JSON.parse(data);
         // data = dummyData; //FOR TESTING - NEED TO REMOVE THIS LINE
