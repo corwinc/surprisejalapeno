@@ -23,7 +23,7 @@ Once the project moves into development, the press release can be used as a touc
 > Short on time and want access to a quick, consice overview of the top news by location? NearbyNews is here to keep you informed.
   
 ## Summary ##
-> NearbyNews allows users to search for news by location and instantly access the top news at her fingertips. The vision for the future of NearbyNews is to allow you to filter the news by your favorite publications and dynamically see the top news topics shift in realtime.
+> NearbyNews allows you to search for news by location and instantly access the top news at your fingertips. The vision for the future of NearbyNews is to allow you to filter the news by your favorite publications and dynamically see the top news topics shift in realtime.
 
 ## Problem ##
 > There's a huge amount of news happening non-stop and it's difficult to get up to speed in a straightforward, meaningful and reliable way that remains unbiased towards particular publications.
